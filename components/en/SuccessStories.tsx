@@ -72,11 +72,6 @@ export default function SuccessStories() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <Link href="/success-stories" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 font-semibold whitespace-nowrap cursor-pointer inline-block">
-            View All Success Stories
-          </Link>
-        </div>
       </div>
     </section>
   );

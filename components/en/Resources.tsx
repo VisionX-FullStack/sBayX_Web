@@ -108,7 +108,7 @@ export default function Resources() {
                       Visit Now →
                     </a>
                   ) : (
-                    <Link href="/resources" className="text-blue-600 hover:text-blue-700 font-medium text-sm whitespace-nowrap cursor-pointer">
+                    <Link href="/en/resources" className="text-blue-600 hover:text-blue-700 font-medium text-sm whitespace-nowrap cursor-pointer">
                       Read More →
                     </Link>
                   )}
@@ -119,7 +119,7 @@ export default function Resources() {
         </div>
 
         <div className="text-center mt-12">
-          <Link href="/resources" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 font-semibold whitespace-nowrap cursor-pointer inline-block">
+          <Link href="/en/resources" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 font-semibold whitespace-nowrap cursor-pointer inline-block">
             View All Resources
           </Link>
         </div>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Services() {
   return (
-    <section className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -14,7 +14,7 @@ export default function Services() {
             sBayX provides comprehensive expansion services for Chinese enterprises — covering company formation,
             operational management, and market development — ensuring a smooth and successful journey into North America.
           </p>
-          <Link href="/services">
+          <Link href="/en/services">
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors whitespace-nowrap cursor-pointer">
               View Details
             </button>

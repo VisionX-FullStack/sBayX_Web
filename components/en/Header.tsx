@@ -22,22 +22,22 @@ export default function Header() {
             <Link href="/en" className="text-gray-700 hover:text-blue-600 font-medium whitespace-nowrap cursor-pointer">
               Home
             </Link>
-            <Link href="/overview" className="text-gray-700 hover:text-blue-600 font-medium whitespace-nowrap cursor-pointer">
+            <Link href="/en#overview" className="text-gray-700 hover:text-blue-600 font-medium whitespace-nowrap cursor-pointer">
               Overview
             </Link>
-            <Link href="/operation" className="text-gray-700 hover:text-blue-600 font-medium whitespace-nowrap cursor-pointer">
+            <Link href="/en#operation" className="text-gray-700 hover:text-blue-600 font-medium whitespace-nowrap cursor-pointer">
               Operations
             </Link>
-            <Link href="/ftz" className="text-gray-700 hover:text-blue-600 font-medium whitespace-nowrap cursor-pointer">
+            <Link href="/en#ftz" className="text-gray-700 hover:text-blue-600 font-medium whitespace-nowrap cursor-pointer">
               US Free Trade Zone
             </Link>
-            <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium whitespace-nowrap cursor-pointer">
+            <Link href="/en#services" className="text-gray-700 hover:text-blue-600 font-medium whitespace-nowrap cursor-pointer">
               Services
             </Link>
-            <Link href="/" className="text-gray-500 hover:text-gray-700 font-medium whitespace-nowrap cursor-pointer text-sm border border-gray-300 px-3 py-1 rounded">
+            <Link href="/zh" className="text-gray-500 hover:text-gray-700 font-medium whitespace-nowrap cursor-pointer text-sm border border-gray-300 px-3 py-1 rounded">
               中文
             </Link>
-            <Link href="/contact" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 font-medium whitespace-nowrap cursor-pointer">
+            <Link href="/en#contact" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 font-medium whitespace-nowrap cursor-pointer">
               Contact Us
             </Link>
           </nav>
@@ -57,22 +57,22 @@ export default function Header() {
             <Link href="/en" className="block py-2 text-gray-700 hover:text-blue-600 cursor-pointer">
               Home
             </Link>
-            <Link href="/overview" className="block py-2 text-gray-700 hover:text-blue-600 cursor-pointer">
+            <Link href="/en#overview" className="block py-2 text-gray-700 hover:text-blue-600 cursor-pointer">
               Overview
             </Link>
-            <Link href="/operation" className="block py-2 text-gray-700 hover:text-blue-600 cursor-pointer">
+            <Link href="/en#operation" className="block py-2 text-gray-700 hover:text-blue-600 cursor-pointer">
               Operations
             </Link>
-            <Link href="/ftz" className="block py-2 text-gray-700 hover:text-blue-600 cursor-pointer">
+            <Link href="/en#ftz" className="block py-2 text-gray-700 hover:text-blue-600 cursor-pointer">
               US Free Trade Zone
             </Link>
-            <Link href="/services" className="block py-2 text-gray-700 hover:text-blue-600 cursor-pointer">
+            <Link href="/en#services" className="block py-2 text-gray-700 hover:text-blue-600 cursor-pointer">
               Services
             </Link>
-            <Link href="/" className="block py-2 text-gray-500 hover:text-gray-700 cursor-pointer">
+            <Link href="/zh" className="block py-2 text-gray-500 hover:text-gray-700 cursor-pointer">
               中文
             </Link>
-            <Link href="/contact" className="block py-2 text-blue-600 font-medium cursor-pointer">
+            <Link href="/en#contact" className="block py-2 text-blue-600 font-medium cursor-pointer">
               Contact Us
             </Link>
           </div>

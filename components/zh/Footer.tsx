@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-1">
-            <Link href="/" className="flex items-center mb-4">
+            <Link href="/zh" className="flex items-center mb-4">
               <span className="text-2xl font-bold text-blue-400" style={{ fontFamily: 'Pacifico, serif' }}>
                 深贝思sBayX
               </span>
@@ -33,21 +33,21 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">核心服务</h3>
             <ul className="space-y-2">
-              <li><Link href="/services" className="text-gray-400 hover:text-white cursor-pointer">企业注册设立</Link></li>
-              <li><Link href="/services" className="text-gray-400 hover:text-white cursor-pointer">法律合规服务</Link></li>
-              <li><Link href="/services" className="text-gray-400 hover:text-white cursor-pointer">银行开户服务</Link></li>
-              <li><Link href="/services" className="text-gray-400 hover:text-white cursor-pointer">财务税务服务</Link></li>
-              <li><Link href="/services" className="text-gray-400 hover:text-white cursor-pointer">市场拓展支持</Link></li>
+              <li><Link href="/zh/services" className="text-gray-400 hover:text-white cursor-pointer">企业注册设立</Link></li>
+              <li><Link href="/zh/services" className="text-gray-400 hover:text-white cursor-pointer">法律合规服务</Link></li>
+              <li><Link href="/zh/services" className="text-gray-400 hover:text-white cursor-pointer">银行开户服务</Link></li>
+              <li><Link href="/zh/services" className="text-gray-400 hover:text-white cursor-pointer">财务税务服务</Link></li>
+              <li><Link href="/zh/services" className="text-gray-400 hover:text-white cursor-pointer">市场拓展支持</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-semibold mb-4">关于我们</h3>
             <ul className="space-y-2">
-              <li><Link href="/overview" className="text-gray-400 hover:text-white cursor-pointer">项目概况</Link></li>
-              <li><Link href="/operation" className="text-gray-400 hover:text-white cursor-pointer">运营方案</Link></li>
-              <li><Link href="/ftz" className="text-gray-400 hover:text-white cursor-pointer">美国自贸区</Link></li>
-              <li><Link href="/contact" className="text-gray-400 hover:text-white cursor-pointer">联系我们</Link></li>
+              <li><Link href="/zh#overview" className="text-gray-400 hover:text-white cursor-pointer">项目概况</Link></li>
+              <li><Link href="/zh#operation" className="text-gray-400 hover:text-white cursor-pointer">运营方案</Link></li>
+              <li><Link href="/zh#ftz" className="text-gray-400 hover:text-white cursor-pointer">美国自贸区</Link></li>
+              <li><Link href="/zh#contact" className="text-gray-400 hover:text-white cursor-pointer">联系我们</Link></li>
               <li><Link href="/careers" className="text-gray-400 hover:text-white cursor-pointer">加入我们</Link></li>
             </ul>
           </div>

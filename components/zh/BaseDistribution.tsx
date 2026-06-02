@@ -12,7 +12,7 @@ export default function BaseDistribution() {
       area: '临近Google/NVIDIA',
       features: ['科技创新中心', '顶级孵化环境', '丰富创投资源', '技术人才聚集'],
       image: 'https://static.readdy.ai/image/a877363f9e9c7b45b36403e1347a6ab2/82747c32093ae094883627329a83e78d.png',
-      link: '/silicon-valley-campus'
+      link: '/zh/silicon-valley-campus'
     },
     {
       id: 'newark-campus',
@@ -21,7 +21,7 @@ export default function BaseDistribution() {
       area: '31,500平方英尺',
       features: ['大型仓储空间', '智能化管理', '便捷物流网络', '一体化服务'],
       image: 'https://readdy.ai/api/search-image?query=Large%20modern%20warehouse%20and%20office%20complex%20in%20Newark%20California%2C%20smart%20campus%20facility%20with%20integrated%20storage%20and%20office%20spaces%2C%20contemporary%20industrial%20architecture%20with%20loading%20docks%20and%20office%20areas&width=600&height=400&seq=base-002&orientation=landscape',
-      link: '/newark-campus'
+      link: '/zh/newark-campus'
     },
     {
       id: 'east-coast',
@@ -30,7 +30,7 @@ export default function BaseDistribution() {
       area: '战略位置布局',
       features: ['东海岸市场', '金融中心接近', '国际贸易便利', '政策资源丰富'],
       image: 'https://readdy.ai/api/search-image?query=Professional%20business%20incubator%20facility%20on%20US%20East%20Coast%2C%20modern%20office%20building%20with%20financial%20district%20skyline%20in%20background%2C%20contemporary%20architecture%20representing%20business%20growth%20and%20innovation&width=600&height=400&seq=base-003&orientation=landscape',
-      link: '/east-coast-campus'
+      link: '/zh/east-coast-campus'
     },
     {
       id: 'chicago-ftz',
@@ -39,7 +39,7 @@ export default function BaseDistribution() {
       area: '2900英亩保税土地',
       features: ['自贸区政策', '关税优惠', '产品组装', '贸易便利化'],
       image: 'https://readdy.ai/api/search-image?query=Chicago%20free%20trade%20zone%20facility%20with%20cargo%20operations%2C%20modern%20logistics%20and%20manufacturing%20complex%20near%20airport%2C%20industrial%20buildings%20with%20trade%20zone%20signage%20and%20shipping%20containers&width=600&height=400&seq=base-004&orientation=landscape',
-      link: '/chicago-ftz'
+      link: '/zh/chicago-ftz'
     }
   ];
 

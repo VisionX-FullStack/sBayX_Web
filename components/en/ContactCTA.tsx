@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function ContactCTA() {
   return (
-    <section className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-blue-600 rounded-2xl p-8 text-center text-white">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -14,7 +14,7 @@ export default function ContactCTA() {
             Contact the sBayX team today for a tailored expansion solution and set your business up for success in the North American market.
           </p>
           <div className="flex justify-center mb-12">
-            <Link href="/contact" className="bg-white text-blue-600 px-8 py-3 rounded-lg hover:bg-gray-100 font-semibold whitespace-nowrap cursor-pointer inline-block">
+            <Link href="/en#contact" className="bg-white text-blue-600 px-8 py-3 rounded-lg hover:bg-gray-100 font-semibold whitespace-nowrap cursor-pointer inline-block">
               Get in Touch
             </Link>
           </div>

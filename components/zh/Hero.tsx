@@ -39,7 +39,7 @@ export default function Hero() {
               <span className="inline-block">专业的一站式服务平台，助力中国企业在北美市场成功落地、合规运营、持续发展。</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 transform transition-all duration-1000 delay-600 animate-slideInUp">
-              <Link href="/contact" className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg whitespace-nowrap cursor-pointer inline-block text-center">
+              <Link href="/zh#contact" className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg whitespace-nowrap cursor-pointer inline-block text-center">
                 立即咨询
               </Link>
             </div>

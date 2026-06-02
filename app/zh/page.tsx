@@ -1,47 +1,41 @@
+
 'use client';
 
-import Header from '../../components/en/Header';
-import Hero from '../../components/en/Hero';
-import ProjectOverview from '../../components/en/ProjectOverview';
-import BaseDistribution from '../../components/en/BaseDistribution';
-import OperationPlan from '../../components/en/OperationPlan';
-import FTZIntroduction from '../../components/en/FTZIntroduction';
-import Services from '../../components/en/Services';
-import ContactCTA from '../../components/en/ContactCTA';
-import Footer from '../../components/en/Footer';
-import SuccessStories from '../../components/en/SuccessStories';
-import Resources from '../../components/en/Resources';
-import WhyChooseUs from '../../components/en/WhyChooseUs';
-import AIAgent from '../../components/en/AIAgent';
+import Header from '../../components/zh/Header';
+import Hero from '../../components/zh/Hero';
+import ProjectOverview from '../../components/zh/ProjectOverview';
+import BaseDistribution from '../../components/zh/BaseDistribution';
+import OperationPlan from '../../components/zh/OperationPlan';
+import FTZIntroduction from '../../components/zh/FTZIntroduction';
+import Services from '../../components/zh/Services';
+import ContactCTA from '../../components/zh/ContactCTA';
+import Footer from '../../components/zh/Footer';
+import SuccessStories from '../../components/zh/SuccessStories';
+import Resources from '../../components/zh/Resources';
+import AIAgent from '../../components/zh/AIAgent';
 
-export default function HomeEN() {
+export default function Home() {
   return (
     <div className="min-h-screen relative overflow-hidden">
-      {/* Animated background layer */}
       <div className="fixed inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-cyan-50 to-indigo-100"></div>
-
         <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-gradient-to-r from-blue-400/60 to-cyan-400/60 rounded-full blur-3xl animate-pulse-slow"></div>
         <div className="absolute top-3/4 right-1/4 w-96 h-96 bg-gradient-to-r from-indigo-400/50 to-purple-400/50 rounded-full blur-3xl animate-float-large"></div>
         <div className="absolute top-1/2 left-3/4 w-64 h-64 bg-gradient-to-r from-cyan-400/60 to-blue-400/60 rounded-full blur-2xl animate-drift"></div>
         <div className="absolute bottom-1/4 left-1/2 w-72 h-72 bg-gradient-to-r from-emerald-400/45 to-teal-400/45 rounded-full blur-3xl animate-orbit"></div>
-
         <div className="absolute top-20 right-20 w-40 h-40 bg-gradient-to-br from-blue-400/45 to-indigo-400/45 rounded-lg rotate-12 animate-rotate-slow"></div>
         <div className="absolute bottom-32 left-20 w-32 h-32 bg-gradient-to-br from-cyan-400/50 to-blue-400/50 rounded-full animate-bounce-slow"></div>
         <div className="absolute top-1/3 right-1/3 w-28 h-28 bg-gradient-to-br from-purple-400/40 to-pink-400/40 rounded-lg animate-wiggle"></div>
-
         <div className="absolute top-0 left-0 w-full h-full">
           <div className="absolute top-1/2 left-0 w-96 h-2 bg-gradient-to-r from-transparent via-blue-400/35 to-transparent animate-wave-horizontal"></div>
           <div className="absolute top-0 left-1/2 w-2 h-96 bg-gradient-to-b from-transparent via-cyan-400/35 to-transparent animate-wave-vertical"></div>
         </div>
-
         <div className="absolute inset-0">
           <div className="absolute top-1/4 left-1/5 w-3 h-3 bg-blue-400/70 rounded-full animate-twinkle"></div>
           <div className="absolute top-2/3 left-2/3 w-2 h-2 bg-cyan-400/80 rounded-full animate-twinkle-delayed"></div>
           <div className="absolute top-1/2 left-4/5 w-4 h-4 bg-indigo-400/60 rounded-full animate-twinkle-slow"></div>
           <div className="absolute top-3/4 left-1/4 w-2 h-2 bg-purple-400/70 rounded-full animate-twinkle-fast"></div>
         </div>
-
         <div className="absolute inset-0 opacity-10">
           <div className="w-full h-full" style={{
             backgroundImage: `
@@ -54,7 +48,6 @@ export default function HomeEN() {
         </div>
       </div>
 
-      {/* Content layer */}
       <div className="relative z-10">
         <Header />
         <Hero />
@@ -70,32 +63,30 @@ export default function HomeEN() {
         <AIAgent />
       </div>
 
-      {/* Our Mission */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Our Mission</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">我们的使命</h3>
             <p className="text-lg leading-relaxed mb-6 text-gray-700">
-              To empower Chinese enterprises to establish a strong foothold and grow rapidly in the North American market
-              through comprehensive one-stop expansion services. We are not just a service provider — we are your trusted
-              partner and steadfast support system abroad.
+              通过提供一站式的出海服务，帮助中国企业在北美市场站稳脚跟、快速发展。
+              我们不仅是服务提供者，更是您在海外市场的可靠伙伴和坚强后盾。
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-600">
               <div className="flex items-center">
                 <i className="ri-check-double-line mr-2 text-green-500"></i>
-                <span>1M㎡ Bonded Warehouse</span>
+                <span>100万㎡保税仓储</span>
               </div>
               <div className="flex items-center">
                 <i className="ri-check-double-line mr-2 text-green-500"></i>
-                <span>100+ Incubated Companies</span>
+                <span>100+成功孵化企业</span>
               </div>
               <div className="flex items-center">
                 <i className="ri-check-double-line mr-2 text-green-500"></i>
-                <span>7 Service Bases</span>
+                <span>7个服务基地</span>
               </div>
               <div className="flex items-center">
                 <i className="ri-check-double-line mr-2 text-green-500"></i>
-                <span>500+ Professionals</span>
+                <span>500+专业人才</span>
               </div>
             </div>
           </div>

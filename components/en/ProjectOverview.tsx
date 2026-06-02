@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function ProjectOverview() {
   return (
-    <section className="py-20 bg-white">
+    <section id="overview" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 border-2 border-gray-200 rounded-2xl p-12 bg-gray-50/50">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
@@ -47,7 +47,7 @@ export default function ProjectOverview() {
 
             <div className="text-center">
               <Link
-                href="/about"
+                href="/en#overview"
                 className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-xl whitespace-nowrap cursor-pointer group"
               >
                 <span className="mr-2">Learn More</span>
